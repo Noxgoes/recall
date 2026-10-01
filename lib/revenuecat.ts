@@ -12,8 +12,8 @@ try {
 }
 
 const API_KEYS = {
-  ios: process.env.EXPO_PUBLIC_REVENUECAT_API_KEY_IOS || '',
-  android: process.env.EXPO_PUBLIC_REVENUECAT_API_KEY_ANDROID || '',
+  ios: process.env.EXPO_PUBLIC_REVENUECAT_API_KEY_IOS || 'test_DMkDosNWtiSPaEUEQZwIutzvSBj',
+  android: process.env.EXPO_PUBLIC_REVENUECAT_API_KEY_ANDROID || 'test_DMkDosNWtiSPaEUEQZwIutzvSBj',
 };
 
 export const REVENUECAT_ENTITLEMENT_ID = 'pro';
