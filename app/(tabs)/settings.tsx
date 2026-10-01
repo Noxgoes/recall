@@ -622,15 +622,6 @@ export default function SettingsScreen() {
               <Ionicons name="chevron-forward" size={18} color="#C4C4D0" />
             </TouchableOpacity>
 
-            {/* Export Memories */}
-            <TouchableOpacity
-              activeOpacity={0.7}
-              onPress={() => handleAction('Export Memories', 'Exporting JSON / Markdown archive of your memories.')}
-              className="px-4 py-3.5 min-h-[52px] border-b border-[#F4F2FF] flex-row items-center justify-between"
-            >
-              <Text className="font-display text-[15px] font-medium text-[#1A1A2E]">Export Memories</Text>
-              <Ionicons name="chevron-forward" size={18} color="#C4C4D0" />
-            </TouchableOpacity>
 
             {/* Delete Account */}
             <TouchableOpacity
