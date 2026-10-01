@@ -622,7 +622,6 @@ export default function SettingsScreen() {
               <Ionicons name="chevron-forward" size={18} color="#C4C4D0" />
             </TouchableOpacity>
 
-
             {/* Delete Account */}
             <TouchableOpacity
               activeOpacity={0.7}
